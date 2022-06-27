@@ -1,0 +1,19 @@
+{
+  "name": "ems-main",
+  "version": "1.0.0",
+  "description": "employee management system with react and mongo and express employee form and table with crud operation in mongo and project description with crud operation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anurag-17/reactEMS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anurag-17/reactEMS/issues"
+  },
+  "homepage": "https://github.com/anurag-17/reactEMS#readme"
+}
