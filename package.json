@@ -10,7 +10,7 @@
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-prebuild": "npm install",
+    "heroku-prebuild": "npm install"
 
   },
   "repository": {
