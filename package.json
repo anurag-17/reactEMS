@@ -11,7 +11,7 @@
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-prebuild": "npm install",
-    "heroku-postbuild": "npm install --prefix client"
+    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
   },
   "repository": {
     "type": "git",
