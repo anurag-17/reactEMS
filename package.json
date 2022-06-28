@@ -1,15 +1,20 @@
 {
   "name": "ems-main",
   "version": "1.0.0",
+
+  "engines": {
+    "npm": "6.14.17"
+  },
   "description": "employee management system with react and mongo and express employee form and table with crud operation in mongo and project description with crud operation",
   "main": "./server/index.js",
   "scripts": {
+    "start":"nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION = false && npm install --prefix frontent && npm run build --prefix frontent"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anurag-17/reactEMS.git"
+    "url": "git+https://github.com/anurag-17/EMSREACT.git"
   },
   "dependencies": {
     "body-parser": "^1.20.0",
@@ -23,7 +28,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/anurag-17/reactEMS"
+    "url": "https://github.com/anurag-17/EMSREACT"
   },
   "homepage": "https://github.com/anurag-17/EMSREACT"
 }
