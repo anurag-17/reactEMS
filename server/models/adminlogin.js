@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const loginschema = {
+const loginschema =  new mongoose.Schema({
 
   
     email:{
@@ -13,7 +13,7 @@ const loginschema = {
         // required:true,
     
     },
-}
+}) 
 
 
 
